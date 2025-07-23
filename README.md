@@ -1,7 +1,6 @@
 # 🧩 PYXELOST: Juego de Laberinto en Consola (Pyxel)
 
- PYXELOST es un pequeño juego de laberinto que se ejecuta en la consola de Python, donde el objetivo del jugador es atravesar un laberinto plagado de trampas y encontrar la meta .El juego incluye múltiples niveles, sistema de vidas, temporizador y 3 tipos de trampas.
- ![alt text](image.png)
+ PYXELOST es un pequeño juego de laberinto que se ejecuta en la consola de Python, donde el objetivo del jugador es atravesar un laberinto plagado de trampas y encontrar la meta .El juego incluye múltiples niveles, sistema de vidas y 2 tipos de trampas.
 
 #  Objetivos.
 
