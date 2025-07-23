@@ -175,5 +175,9 @@ flowchart TD
     N -- Sí --> O[Felicidades()\nMostrar menú o salir]
     N -- No --> P[Actualizar posición jugador]
     P --> G
-
 ```
+
+## INTEGRANTES
+- [Juan Carlos Polania Bolivar](https://github.com/Ciyuang)
+- [Erick Llanos Espinel](https://github.com/erickllanos120)
+- [fabian Camilo Linares Villalba](https://github.com/campersi93)
