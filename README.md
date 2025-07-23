@@ -150,34 +150,7 @@ flowchart TD
 ```
 
 **Flujo principal del juego**
-``` mermaid
----
-config:
-  theme: redux
----
-```mermaid
-flowchart TD
-    A[Inicia el programa] --> B[Muestra pantalla de título]
-    B --> C[Mostrar menú principal]
-    C --> D1[Opción 1: desde nivel 0]
-    C --> D2[Opción 2: elegir nivel]
-    D1 --> E[Inicia función jugar()]
-    D2 --> E
-    E --> F[Se cargan vidas = 3\nSe carga laberinto\nSe busca posición de 's']
-    F --> G[Mostrar laberinto y vidas]
-    G --> H[Leer movimiento (WASD)]
-    H --> I[Calcular nueva posición]
-    I --> J{¿Destino válido?\ne, m, t}
-    J -- No --> K[Ignorar movimiento]
-    J -- Sí --> L{¿Es trampa? (t1 o t2)}
-    L -- Sí --> M[Reducir 1 vida\nSi vidas == 0:\nGame Over\nVolver al menú]
-    L -- No --> N{¿Destino es la meta? (m)}
-    M --> N
-    N -- Sí --> O[Felicidades()\nMostrar menú o salir]
-    N -- No --> P[Actualizar posición jugador]
-    P --> G
-
-```
+![VScode 1](diag)
 
 ## INTEGRANTES
 - [Juan Carlos Polania Bolivar](https://github.com/Ciyuang)
