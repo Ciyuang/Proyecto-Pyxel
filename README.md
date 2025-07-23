@@ -155,6 +155,7 @@ flowchart TD
 config:
   theme: redux
 ---
+```mermaid
 flowchart TD
     A[Inicia el programa] --> B[Muestra pantalla de título]
     B --> C[Mostrar menú principal]
@@ -175,6 +176,7 @@ flowchart TD
     N -- Sí --> O[Felicidades()\nMostrar menú o salir]
     N -- No --> P[Actualizar posición jugador]
     P --> G
+
 ```
 
 ## INTEGRANTES
