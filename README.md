@@ -149,7 +149,7 @@ flowchart TD
     EsD -- No --> MovimientoInvalido[Tecla inválida y retornar misma fila y columna sin cambio]
 ```
 
-**Flujo principal del juego**
+**Flujo principal del juego**<br><br>
 ![VScode 1](diag.png)
 
 ## INTEGRANTES
