@@ -150,7 +150,7 @@ flowchart TD
 ```
 
 **Flujo principal del juego**
-![VScode 1](diag)
+![VScode 1](diag.png)
 
 ## INTEGRANTES
 - [Juan Carlos Polania Bolivar](https://github.com/Ciyuang)
